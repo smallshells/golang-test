@@ -1,2 +1,2 @@
-# golang-test
-golang学习过程中的一些基础语法测试。
+# hellogo
+golang学习过程中基础语法练习集。

@@ -1,0 +1,4 @@
+mode: set
+hello/learntest/split/split01.go:6.45,8.16 2 1
+hello/learntest/split/split01.go:13.2,14.8 2 1
+hello/learntest/split/split01.go:8.16,12.3 3 1

@@ -1,0 +1,2 @@
+[2020-04-10 23:08:58] [DEBUG] [mylog.MainLog:mainlog.go] [%!!(int=10)s(int=7)] id是%!d(MISSING)的用户一直尝试登陆
+[2020-04-10 23:09:47] [DEBUG] [mylog.MainLog:mainlog.go] [7] id是10的用户一直尝试登陆

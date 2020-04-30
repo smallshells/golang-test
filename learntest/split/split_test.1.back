@@ -1,0 +1,43 @@
+package split
+
+import (
+	"reflect"
+	"testing"
+)
+
+// ------------- 测试驱动开发 -------------------
+/*
+	测试文件必须以 _test.go 结尾
+	测试函数以 Test 开头 包含 (t *testing.T)
+	运行代码时，为 go test 参数
+	参数：
+		-run 正则表达式 ： 指定正则匹配到的函数测试
+		-v             ：  详细信息显示(t.Log等)
+ */
+
+func TestSplit(t *testing.T) {
+	t.Log("正常测试")
+	got := Split("a:b:c", ":")
+	want := []string{"a", "b", "c"}
+	if ok := reflect.DeepEqual(got, want); !ok {
+		t.Fatalf("期望得到：%v，实际得到：%v", want, got)
+	}
+}
+
+func TestNoneSplit(t *testing.T) {
+	t.Log("非正常测试")
+	got := Split("a:b:c", "*")
+	want := []string{"a:b:c"}
+	if ok := reflect.DeepEqual(got, want); !ok {
+		t.Fatalf("期望得到：%v，实际得到：%v", want, got)
+	}
+}
+
+func TestMultiSepSplit(t *testing.T) {
+	t.Log("测试多个分隔符")
+	got := Split("abcfbcgbci", "bc")
+	want := []string{"a", "f", "g","i"}
+	if ok := reflect.DeepEqual(got, want); !ok {
+		t.Fatalf("期望得到：%v，实际得到：%v", want, got)
+	}
+}

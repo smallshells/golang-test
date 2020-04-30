@@ -1,0 +1,7 @@
+[2020-04-10 14:18:18.114][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]我是error
+[2020-04-10 14:18:21.812][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]我是error
+[2020-04-10 14:18:24.018][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]我是error
+[2020-04-10 14:18:28.279][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]我是error
+[2020-04-10 14:18:30.599][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]我是error
+[2020-04-10 14:18:37.631][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]我是error
+[2020-04-10 14:18:51.155][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]我是error

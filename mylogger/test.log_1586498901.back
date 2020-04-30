@@ -1,0 +1,7 @@
+[2020-04-10 12:51:06.661][filelog.go:71][mylogger.(*FileLogger).Debug][DEBUG]用户ID：10，一直尝试登陆
+[2020-04-10 12:51:37.945][myloggerTest.go:5][mylogger.TestMyLogger][DEBUG]用户ID：10，一直尝试登陆
+[2020-04-10 13:10:34.780][myloggerTest.go:5][mylogger.TestMyLogger][DEBUG]用户ID：10，一直尝试登陆
+[2020-04-10 13:10:34.789][myloggerTest.go:6][mylogger.TestMyLogger][INFO]用户ID：%!d(MISSING),一直尝试登陆……
+[2020-04-10 13:10:34.789][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]用户ID：10，一直尝试登陆
+[2020-04-10 13:13:14.582][myloggerTest.go:6][mylogger.TestMyLogger][INFO]用户ID：%!d(MISSING),一直尝试登陆……
+[2020-04-10 13:13:14.594][myloggerTest.go:7][mylogger.TestMyLogger][ERROR]用户ID：10，一直尝试登陆
